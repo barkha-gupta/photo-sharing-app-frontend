@@ -1,0 +1,55 @@
+.main-section{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.newPost-form{
+    border: 1px solid #707070;
+    padding: 18px 25px;
+    width: 100%;
+}
+.form-div{
+    padding: 8px 0;
+    width: 100%;
+    display: flex;
+}
+.one{
+    display: flex;
+}
+.one .choose-file{
+    width: 90%;
+    float: left;
+    margin-right: 1%;
+}
+.one .browse{
+    float: right;
+    box-sizing: border-box;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+.two{
+    justify-content: space-between;
+}
+.two input{
+    width: 40%;
+}
+.three input{
+    width: 100%;
+}
+.post-btn{
+    margin: 0 auto;
+    /* width: 30%; */
+    padding: 0.2rem 1.5rem ;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+input{
+    padding: 2px 0 2px 5px;
+    border: 1px solid #707070;
+    border-radius: 2px;
+}
+input::placeholder{
+    color: #707070;
+}

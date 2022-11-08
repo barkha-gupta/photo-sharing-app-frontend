@@ -1,0 +1,58 @@
+.home-page-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-image: url("https://th.bing.com/th/id/OIP._81GlMXSuPi2yejE3M5csQAAAA?pid=ImgDet&rs=1");background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-page-container .image-container{
+  width: 70%;
+}
+.home-page-container .enter-column{
+  width: 50%;
+}
+.image-container img{
+  object-fit: cover;
+  width: 70%;
+  height: 75%;
+  overflow: hidden;
+}
+.image-container{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.enter-column{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content:center;
+  margin: 0 auto;
+}
+.heading{
+  font-size: 30px;
+  font-weight:bold;
+  color: #006238; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.enter-btn{
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 6px 10px;
+  color: #006238;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: large;
+  border-color: #006238;
+  background-color: whitesmoke;
+}
+.btn{
+  text-decoration: none;
+  color: #006238;
+}
+.enter{
+  margin-left: 60px;
+}
